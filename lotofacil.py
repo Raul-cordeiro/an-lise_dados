@@ -82,7 +82,7 @@ import numpy as np
 # In[75]:
 
 
-df.value_counts()
+print(df.value_counts(1).plot.bar())
 
 
 # In[88]:
